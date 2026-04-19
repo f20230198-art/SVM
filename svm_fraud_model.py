@@ -35,7 +35,7 @@ from sklearn.metrics import (
 # Config
 # ---------------------------------------------------------------------
 DATA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                         "..", "archive", "creditcard.csv")
+                         "archive", "creditcard.csv")
 N_LEGIT_SAMPLES = 6000   # subsample legit class for tractable SVM training
 KERNEL = "rbf"
 C_VALUE = 1.0

@@ -64,7 +64,7 @@ st.markdown(
 @st.cache_data(show_spinner=True)
 def load_data():
     here = os.path.dirname(os.path.abspath(__file__))
-    path = os.path.join(here, "..", "archive", "creditcard.csv")
+    path = os.path.join(here, "archive", "creditcard.csv")
     df = pd.read_csv(path)
     return df
 
